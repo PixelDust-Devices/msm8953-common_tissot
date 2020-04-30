@@ -480,7 +480,7 @@ vendor/lib/libadpcmdec.so
 vendor/lib/libsmwrapper.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 
-# Media - from LA.UM.8.6.2.r1-06600-89xx.0
+# Media - from LA.UM.8.6.2.r1-07100-89xx.0
 
 vendor/lib/libI420colorconvert.so|4feec5034de3e21d95602ca93c559550c682e19b
 vendor/lib/libmmosal_proprietary.so|e6bc0d4dea15a126af00d3ae522eea50e9e3e762
