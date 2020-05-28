@@ -75,8 +75,6 @@ PRODUCT_PACKAGES += \
     libantradio
 
 # Device-specific Settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
