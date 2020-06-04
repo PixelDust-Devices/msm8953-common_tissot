@@ -144,43 +144,9 @@ vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_1_6.fw
 
 
-# CNE - from LA.UM.8.6.2.r1-07100-89xx.0
--vendor/app/CneApp/CneApp.apk|67dd058d8e665a8606c1ff6c3980e844a9bf323e
--vendor/app/IWlanService/IWlanService.apk|32cb03f65a3412c7e0390b445ce5f36bcedfb809
-vendor/bin/cnd|7bdff52af70480681a7aefb2db57f055cb13c741
-vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
-vendor/lib/libxml.so|a51dc2e731505db744d34ce9339f6c9a44760cb4
-vendor/lib64/libcne.so|68e738bc98c333adc90a25b098138273c4660834
-vendor/lib64/libcneapiclient.so|f928af5cd743a4686971d5d779537451be39c30d
-vendor/lib64/libcneoplookup.so|475f3a0d30caab2c5d62c8aaf75908e741528648
-vendor/lib64/libcneqmiutils.so|be80bfeaaa2bdc6c94d7130be2ea13887fe62b49
-vendor/lib64/libwqe.so|695b37889f5f82d44efcb5a5e8b45a3fb5d8160d
-vendor/lib64/libxml.so|dee8885f6f90b4cc02cebbdb3939bce6832dbc18
-vendor/lib64/vendor.qti.data.factory@2.0.so|6b5b3d3e007ecbc47c7a451cd7712f8a242a12c9
-vendor/lib64/vendor.qti.data.factory@2.1.so|852dc59b489fb44a594be0a51630f3f70e55ab9f
-vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so|1fa1ea98c1f28e12a1399c0f2e34e1f1a1e0c21b
-vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so|3604bfc152d5e6417e5478dc80d74110cfca934f
-# CDSP - from LA.UM.8.6.2.r1-06600-89xx.0
-vendor/bin/cdsprpcd|6fb2700151a6e6dd57a5d9a388cf3a95d3e8262b
-vendor/lib/libcdsprpc.so|e5b8cfaf3200a3558dd65e121e0c23e0a5cc15c2
-vendor/lib/libcdsp_default_listener.so|b7e87922cb8154328381b102b0f177bc8a80cbf4
-vendor/lib/libfastrpc_utf_stub.so|42f83203e2ae469ea28b0caeb46e00a144d8aade
-vendor/lib/libsysmon_cdsp_skel.so|18aa6d0c5285525782f165ddf8d979e9cd4e1d91
-vendor/lib64/libcdsprpc.so|91bf1a70f76e67f37c62948eb9d5d86b55ea36d3
-vendor/lib64/libcdsp_default_listener.so|886ba3921f81439cb1b4e520ad622e1089291fa7
-vendor/lib64/libfastrpc_utf_stub.so|891a4c987862c1b2d844379f8fb3bcdcb737e8c1
-vendor/lib64/libsysmon_cdsp_skel.so|8db2d73bbd5ce8942f512f88b27f4c627db7271c
-vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so|350cf8cbbdc14efca1ba45fe2e3047b13884c4d6
-vendor/lib64/vendor.qti.hardware.data.connection@1.0.so|8501ddc8a75b2cd091428590cec5a3b09487ccfa
-vendor/lib64/vendor.qti.hardware.data.connection@1.1.so|361cb0c9a3df68248f38db1a519f9f1b0ee7d055
-vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|1b03b7d349d313457c4178836ab5962e09e8607e
-vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|3fe8a5cfd17c52933e13a85fbbd85ac2e7c40f0b
-vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|b5eb170acad879f5cb1c37383bd7a868960cae77
-vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|dfedda144d19622e3e579186033da2b7f3c80d32
-vendor/lib64/vendor.qti.data.slm@1.0.so|fef8424feba79e3c16c222c2bd6e6e140b904875
-vendor/lib64/vendor.qti.latency@2.0.so|fe4691e922ec926bd723ac79e6a11ba1d75db75a
 
-# CNE configs - from LA.UM.8.6.2.r1-07100-89xx.0
+# CNE - from LA.UM.8.6.2.r1-07600-89xx.0
+
 
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
 etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
