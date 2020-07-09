@@ -17,7 +17,7 @@
 VENDOR_PATH := device/xiaomi/msm8953-common
 
 # Exclude vendor sepolicy
-TARGET_EXCLUDE_QCOM_VENDOR_SEPOLICY
+TARGET_EXCLUDE_QCOM_VENDOR_SEPOLICY := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -207,6 +207,10 @@ endif
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
+
+# Surface Flinger
+#TARGET_USE_AOSP_SURFACEFLINGER := true
+TARGET_USES_QCOM_UM_FAMILY := true
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
