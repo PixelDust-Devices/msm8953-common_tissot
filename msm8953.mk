@@ -80,7 +80,7 @@ PRODUCT_PACKAGES += \
     libantradio
 
 # Device-specific Settings
- include vendor/qcom/common/qti-vendor.mk
+# include vendor/qcom/common/qti-vendor.mk
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
