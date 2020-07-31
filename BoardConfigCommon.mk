@@ -15,7 +15,7 @@
 #
 
 VENDOR_PATH := device/xiaomi/msm8953-common
-
+TARGET_USES_LEGACY_SEPOLICY := true
 # Exclude vendor sepolicy
 TARGET_EXCLUDE_QCOM_VENDOR_SEPOLICY := true
 #Telephony JAR
