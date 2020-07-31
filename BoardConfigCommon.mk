@@ -18,7 +18,10 @@ VENDOR_PATH := device/xiaomi/msm8953-common
 
 # Exclude vendor sepolicy
 TARGET_EXCLUDE_QCOM_VENDOR_SEPOLICY := true
-
+#Telephony JAR
+TARGET_PROVIDES_QTI_TELEPHONEY_JAR := true
+#Ril Variant 
+TARGET_RIL_VARIANT := caf
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
