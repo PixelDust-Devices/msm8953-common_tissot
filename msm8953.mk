@@ -70,12 +70,12 @@ PRODUCT_COPY_FILES += \
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
-#    com.dsi.ant.antradio_library \
+   com.dsi.ant.antradio_library \
     antradio_app \
     libantradio
 
 # Device-specific Settings
-
+ include vendor/qcom/common/qti-vendor.mk
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
