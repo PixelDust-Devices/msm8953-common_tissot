@@ -34,6 +34,22 @@
 
     <!-- FPSInfoService Fps file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
+     <!-- LockScreenCharger current sysfs path -->
+    <string name="config_currentPath">/sys/class/power_supply/battery/current_now</string>
+
+
+    <!-- LockScreenCharger voltage sysfs path -->
+    <string name="config_voltagePath">/sys/class/power_supply/battery/voltage_now</string>
+
+    <!-- LockScreenCharger current inversion -->
+    <bool name="showInvertedCurrent">true</bool>
+     <bool name="config_liveDisplayAvailable">true</bool>
+    <!-- The battery voltage divider, if needed -->
+     <integer name="config_battVoltageDivider" translatable="false">1000</integer>
+
+
+     <!-- The battery current divider, if needed -->
+     <integer name="config_battCurrentDivider" translatable="false">1000</integer>
 
 </resources>
 
