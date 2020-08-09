@@ -23,7 +23,6 @@ $(call inherit-product, vendor/pixeldust/configs/phone-xhdpi-4096-dalvik-heap.mk
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -84,6 +83,10 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
+
+# Device-specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Audio
 PRODUCT_PACKAGES += \
