@@ -102,7 +102,17 @@
                 android:targetClass="com.xiaomi.parts.kcal.KCalSettingsActivity"
                 android:targetPackage="com.xiaomi.parts.kcal"/>
         </Preference>
-        
+         <Preference
+            android:key="ambient_display_gestures"
+            android:persistent="false"
+            android:summary="@string/ambient_display_gestures_summary"
+            android:icon="@drawable/ic_doze"
+            android:title="@string/ambient_display_gestures_title" />
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.xiaomi.parts.ambient.AmbientGesturePreferenceActivity"
+                android:targetPackage="com.xiaomi.parts.ambient"/>
+            
 
     </PreferenceCategory>
 
@@ -179,10 +189,5 @@
 
   
 
-       
-
-        
-
-   
 
 </PreferenceScreen>
