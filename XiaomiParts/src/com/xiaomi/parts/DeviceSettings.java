@@ -22,7 +22,7 @@ import com.xiaomi.parts.preferences.CustomSeekBarPreference;
 import com.xiaomi.parts.su.SuShell;
 import com.xiaomi.parts.su.SuTask;
 import android.util.Log;
-
+import com.xiaomi.parts.ambient.AmbientGesturePreferenceActivity;
 import com.xiaomi.parts.R;
 
 public class DeviceSettings extends PreferenceFragment implements
@@ -31,7 +31,7 @@ public class DeviceSettings extends PreferenceFragment implements
     private static final String TAG = "DeviceSettings";
 
     private static final String PREF_DEVICE_KCAL = "device_kcal";
-
+	private static final String AMBIENT_DISPLAY = "ambient_display_gestures";
     // vibration override will use bool instead of integer
     public static final String PREF_VIBRATION_OVERRIDE = "vmax_override";
     public static final String PREF_VIBRATION_PATH = "/sys/class/leds/vibrator/vmax_override";
@@ -90,6 +90,13 @@ public class DeviceSettings extends PreferenceFragment implements
         vib.setEnabled(Vibration.isSupported());
         vib.setChecked(Vibration.isCurrentlyEnabled(this.getContext()));
         vib.setOnPreferenceChangeListener(new Vibration(getContext()));
+        
+        Preference ambientDisplay = findPreference(AMBIENT_DISPLAY);
+        ambientDisplay.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent(getContext(), AmbientGesturePreferenceActivity.class);
+            startActivity(intent);
+            return true;
+        });
 
         VibrationSeekBarPreference vibrationSystemStrength = (VibrationSeekBarPreference) findPreference(PREF_VIBRATION_SYSTEM_STRENGTH);
         vibrationSystemStrength.setEnabled(FileUtils.fileWritable(VIBRATION_SYSTEM_PATH));
