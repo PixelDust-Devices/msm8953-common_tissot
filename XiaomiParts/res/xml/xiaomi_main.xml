@@ -173,7 +173,7 @@
             android:title="@string/selinux_mode_title"
             android:summaryOn="@string/selinux_enforcing_summary"
             android:summaryOff="@string/selinux_permissive_summary"
-            android:selectable="true" />
+            android:selectable="false" />
 
         <SwitchPreference
             android:key="selinux_persistence"
